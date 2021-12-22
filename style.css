@@ -41,7 +41,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -59,8 +59,41 @@ form label, form p {
     margin: 20px 0px;
 }
 
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: darkgray;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    transform: scale(1.1);
+    background: gray;
+}
+
 .horario-atendimento{
     margin: 20px 0px 10px;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555552;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
 }
 
 .produtos {

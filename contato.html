@@ -10,7 +10,7 @@
     <header>
         <div class="caixa">
             <h1>
-                <img src="imagens/logo.png" alt="">
+                <a href="index.html"><img src="imagens/logo.png" alt="Logo da Barbearia Alura"></a>
             </h1>
             <nav>
                 <ul>
@@ -31,8 +31,8 @@
                 <input type="tel" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx" required>
             <label for="mensagem">Mensagem: </label>
                 <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
-            <div>
-                <p id="teste" class="teste">Como prefere o nosso contato? </p>
+            <fieldset>
+                <legend id="teste" class="teste">Como prefere o nosso contato? </legend>
 
                 <label for="radio-email">
                     <input type="radio" name="contato" value="email" id="radio-email">Email
@@ -43,23 +43,52 @@
                 <label for="radio-whatsapp">
                     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatApp
                 </label>
-            </div>
-            <div>
-                <p class="horario-atendimento">Qual horário gostaria de ser atendido?</p>
+            </fieldset>
+            <fieldset>
+                <legend class="horario-atendimento">Qual horário gostaria de ser atendido?</legend>
                 <select name="" id="">
                     <option value="">Manhã</option>
                     <option value="">Tarde</option>
                     <option value="">Noite</option>
                 </select>
-            </div>
-            <label class="ckeckbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email? </label>
+            </fieldset>
+            <label class="ckeckbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
            
-            <input type="submit" value="Enviar formulário">
+            <input type="submit" value="Enviar formulário" class="enviar">
        </form>
+
+       <table>
+            <thead>
+                <th>Dia</th>
+                <th>Horário</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Terça</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+           </tbody>
+       </table>
     </main>
     <footer>
-        <img src="imagens/logo-branco.png" alt="">
+        <img src="imagens/logo-branco.png" alt="Logo da Barbearia Alura">
         <p class="copyright">&copy; Copyright Barbearia Alura 2019</p>
-    </footer>g
+    </footer>
 </body>
 </html>
