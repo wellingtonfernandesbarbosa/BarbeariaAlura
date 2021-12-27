@@ -33,7 +33,6 @@ nav a {
 }
 
 .principal {
-    /*background-color: #cccccc;*/
     padding: 30px;
 }
 
@@ -49,6 +48,9 @@ nav a {
 
 .titulo-centralizado {
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
 }
 
 p {
@@ -70,11 +72,9 @@ em strong {
 
 .itens {
     font-style: italic;
-}
-
-ul {
+    font-size: 18px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: 200px;
     width: 20%;
     margin-right: 15%;
 }
@@ -82,6 +82,7 @@ ul {
 .imagembeneficios {
     width: 50%;
     border-radius: 12px;
+    margin: 0 0 0 95px;
 }
 
 footer {
